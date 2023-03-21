@@ -63,6 +63,23 @@
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
 }
+:root {
+  --bs-primary: #40e0d0;
+  --bs-primary-rgb: 64, 224, 208;
+  --bs-secondary: #007fff;
+  --BS-SECONDARY-rgb: 0, 127, 225;
+}
+.expedu_icon:hover {
+  color: var(--bs-secondary);
+}
+
+a {
+  color: var(--bs-primary);
+}
+
+.social-icon .social-icon:hover {
+  background-color: var(--bs-secondary);
+}
 
 *,
 *::before,
