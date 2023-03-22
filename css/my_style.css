@@ -18,3 +18,21 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     background-color: darkslategray;
     color: aliceblue;
 }
+:root {
+    --bs-primary: #40e0d0;
+    --bs-primary-rgb: 0, 127, 225;
+    --bs-secondary: #007fff;
+    --BS-SECONDARY-rgb: 64, 224, 208;
+  }
+  
+  .expedu_icon:hover {
+    color: var(--bs-secondary);
+  }
+  
+  a {
+    color: var(--bs-primary);
+  }
+  
+  .social-icon .social-icon:hover {
+    background-color: var(--bs-secondary);
+  }
