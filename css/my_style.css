@@ -10,29 +10,38 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 .subheading {
     font-family: 'Noto Sans TC', sans-serif;
     text-transform: none;
-}  
-.expedu_icon {
-    color:darkslategray;
 }
-.expedu_icon:hover {
-    background-color: darkslategray;
-    color: rgba(240, 248, 255, 0.641);
+
+a{
+    color: rgb(93, 137, 194);
+    text-transform: none;
 }
-:root {
-    --bs-primary: #91a9d4;
-    --bs-primary-rgb: 0, 127, 225;
-    --bs-secondary: #61e9a2;
-    --BS-SECONDARY-rgb: 64, 224, 208;
-  }
-  
-  .expedu_icon:hover {
-    color: var(--bs-secondary);
-  }
-  
-  a {
-    color: var(--bs-primary);
-  }
-  
-  .social-icon .social-icon:hover {
-    background-color: var(--bs-secondary);
-  }
+
+.picture{
+    color:rgb(137,179,217);
+    text-decoration: none;
+}
+
+.picture:hover{
+    color:rgb(93, 137, 194);
+    text-decoration: none;
+}
+
+
+table{width:100%;}
+th, td {text-align: left;
+border: 2px solid rgb(0, 0, 1);}
+
+table{
+    border-collapse: collapse;
+}
+
+th,td{
+    text-align: left;
+    border: 1px solid black;
+}
+
+.tbcolor{
+    background-color:rgb(101, 101, 101);
+    color:white
+}
