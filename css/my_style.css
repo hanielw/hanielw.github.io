@@ -16,12 +16,12 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 .expedu_icon:hover {
     background-color: darkslategray;
-    color: aliceblue;
+    color: rgba(240, 248, 255, 0.641);
 }
 :root {
-    --bs-primary: #40e0d0;
+    --bs-primary: #91a9d4;
     --bs-primary-rgb: 0, 127, 225;
-    --bs-secondary: #007fff;
+    --bs-secondary: #61e9a2;
     --BS-SECONDARY-rgb: 64, 224, 208;
   }
   
