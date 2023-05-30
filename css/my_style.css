@@ -1,3 +1,11 @@
+:root {
+    --bs-body-primary: #9eb59f;
+    --bs-body-primary: 158, 181, 159;
+    --bs-secondary: #9dcbfc;
+    --bs-secondary-rgb: 157, 203, 252;
+}
+
+
 body {
     font-family: 'Noto Sans TC', sans-serif;
 }
@@ -42,6 +50,23 @@ th,td{
 }
 
 .tbcolor{
-    background-color:rgb(101, 101, 101);
+    background-color:rgb(31, 31, 31);
     color:white
 }
+
+要使照片在按钮点击时弹出补充说明，你可以使用一些JavaScript和CSS来实现。以下是一个简单的示例代码：
+
+HTML代码：
+
+html
+Copy code
+<div class="btn-group">
+  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="showDescription()">View</button>
+</div>
+
+<div id="photoDescription" class="photo-description">
+  <img src="path/to/photo.jpg" alt="Photo">
+  <p>补充说明文本</p>
+</div>
+CSS代码：
+
